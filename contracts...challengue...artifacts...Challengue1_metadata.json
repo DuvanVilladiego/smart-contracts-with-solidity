@@ -1,0 +1,173 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_id",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_foundAsignGoal",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "enum Challengue1.State",
+						"name": "newState",
+						"type": "uint8"
+					}
+				],
+				"name": "ChangeState",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "enum Challengue1.State",
+						"name": "state",
+						"type": "uint8"
+					}
+				],
+				"name": "CompleteFund",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Challengue1.State",
+						"name": "newState",
+						"type": "uint8"
+					}
+				],
+				"name": "changeProjectState",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fundProject",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "project",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "id",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "foundAsignGoal",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address payable",
+						"name": "author",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "founds",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum Challengue1.State",
+						"name": "state",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/challengue/simple_contrac_with_modifier_-_emitEvents_-_require_-_dataStruc_and_enumData.sol": "Challengue1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/challengue/simple_contrac_with_modifier_-_emitEvents_-_require_-_dataStruc_and_enumData.sol": {
+			"keccak256": "0xfb2d5fe8089b084285415b080ce1941e5b5e65b4e17ed9904f077e32cd56944c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8a3d556f6874b83a7a8de4349bd349f3a5e15b1c09060ac0ee08fe36015a575c",
+				"dweb:/ipfs/QmQXvAtSt1LN19QAj5mVjPgCDbNYE7DGSjp4BaqC3EA8FU"
+			]
+		}
+	},
+	"version": 1
+}
