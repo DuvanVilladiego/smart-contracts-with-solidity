@@ -1,6 +1,6 @@
 **CrowdFunding Smart contract**
 
-This a smart Contract maded with Solidity for create, fund and udate status for proyects.
+This a smart Contract maded with Solidity for create, fund and update status for proyects.
 
 The contract has deployed on Ropsten network for Ethereum Blockchain.
 
